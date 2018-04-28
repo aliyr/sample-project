@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test not found page 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <h1>
+        404!
+        <Link
+            replace={false}
+            to="/"
+        >
+            go home
+        </Link>
+    </h1>
+</div>,
+  "nodes": Array [
+    <div>
+      <h1>
+            404!
+            <Link
+                  replace={false}
+                  to="/"
+            >
+                  go home
+            </Link>
+      </h1>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <NotFoundPage />,
+    "_forcedUpdate": false,
+    "_instance": NotFoundPage {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": null,
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <div>
+      <h1>
+            404!
+            <Link
+                  replace={false}
+                  to="/"
+            >
+                  go home
+            </Link>
+      </h1>
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <NotFoundPage />,
+}
+`;
